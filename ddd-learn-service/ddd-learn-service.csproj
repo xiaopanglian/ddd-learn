@@ -7,4 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ddd-learn-coupon\ddd-learn-coupon.csproj" />
+    <ProjectReference Include="..\ddd-learn-service.interfaces\ddd-learn-service.interfaces.csproj" />
+  </ItemGroup>
+
 </Project>

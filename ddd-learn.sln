@@ -1,39 +1,40 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30114.105
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 interfaces", "1 interfaces", "{12FA44C0-1D64-11ED-B393-AD23B8246DE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ddd-learn-facade", "ddd-learn-facade\ddd-learn-facade.csproj", "{C4F1A7F4-083C-4F55-9E0F-960066944AA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ddd-learn-facade", "ddd-learn-facade\ddd-learn-facade.csproj", "{C4F1A7F4-083C-4F55-9E0F-960066944AA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ddd-learn-dto", "ddd-learn-dto\ddd-learn-dto.csproj", "{CE127632-2548-4C36-930B-B6D0137AAACF}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ddd-learn-assembler", "ddd-learn-assembler\ddd-learn-assembler.csproj", "{08241D38-9639-4775-8FAE-423EE704E800}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ddd-learn-dto", "ddd-learn-dto\ddd-learn-dto.csproj", "{CE127632-2548-4C36-930B-B6D0137AAACF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 application", "2 application", "{5F4C6290-1D64-11ED-B393-AD23B8246DE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ddd-learn-event", "ddd-learn-event\ddd-learn-event.csproj", "{695A2719-8341-4EB0-95AE-FACF438F626D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ddd-learn-event", "ddd-learn-event\ddd-learn-event.csproj", "{695A2719-8341-4EB0-95AE-FACF438F626D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ddd-learn-service", "ddd-learn-service\ddd-learn-service.csproj", "{2E386514-2E8D-4ECA-8F65-08DFAEC527B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ddd-learn-service", "ddd-learn-service\ddd-learn-service.csproj", "{2E386514-2E8D-4ECA-8F65-08DFAEC527B2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 infastructure", "4 infastructure", "{EC4C9390-1D64-11ED-B393-AD23B8246DE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ddd-learn-config", "ddd-learn-config\ddd-learn-config.csproj", "{C8DDE35E-24F6-47BA-BCEE-507513B2BDD7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ddd-learn-config", "ddd-learn-config\ddd-learn-config.csproj", "{C8DDE35E-24F6-47BA-BCEE-507513B2BDD7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ddd-learn-util", "ddd-learn-util\ddd-learn-util.csproj", "{DA157D92-614B-4157-A8D7-A7FD1B18A0F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ddd-learn-util", "ddd-learn-util\ddd-learn-util.csproj", "{DA157D92-614B-4157-A8D7-A7FD1B18A0F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ddd-learn-coupon", "ddd-learn-coupon\ddd-learn-coupon.csproj", "{F5C1D1FC-3BE6-4997-9DFA-6E123A18DCB8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ddd-learn-coupon", "ddd-learn-coupon\ddd-learn-coupon.csproj", "{F5C1D1FC-3BE6-4997-9DFA-6E123A18DCB8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 domain", "3 domain", "{F97FAA90-1DD0-11ED-84E5-BB44434979E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ddd-learn-coupon.core", "ddd-learn-coupon.core\ddd-learn-coupon.core.csproj", "{33FC0055-0C72-4BA7-B84F-43C81A2D0FB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ddd-learn-service.interfaces", "ddd-learn-service.interfaces\ddd-learn-service.interfaces.csproj", "{6EDC41AF-11F8-41BD-BF18-42603693C560}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ddd-learn-service.domain-object", "ddd-learn-service.domain-object\ddd-learn-service.domain-object.csproj", "{A29963D1-7413-4288-A1D2-14B5B31C664B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{C4F1A7F4-083C-4F55-9E0F-960066944AA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -44,10 +45,6 @@ Global
 		{CE127632-2548-4C36-930B-B6D0137AAACF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE127632-2548-4C36-930B-B6D0137AAACF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE127632-2548-4C36-930B-B6D0137AAACF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{08241D38-9639-4775-8FAE-423EE704E800}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{08241D38-9639-4775-8FAE-423EE704E800}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{08241D38-9639-4775-8FAE-423EE704E800}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{08241D38-9639-4775-8FAE-423EE704E800}.Release|Any CPU.Build.0 = Release|Any CPU
 		{695A2719-8341-4EB0-95AE-FACF438F626D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{695A2719-8341-4EB0-95AE-FACF438F626D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{695A2719-8341-4EB0-95AE-FACF438F626D}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -68,15 +65,35 @@ Global
 		{F5C1D1FC-3BE6-4997-9DFA-6E123A18DCB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5C1D1FC-3BE6-4997-9DFA-6E123A18DCB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5C1D1FC-3BE6-4997-9DFA-6E123A18DCB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33FC0055-0C72-4BA7-B84F-43C81A2D0FB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33FC0055-0C72-4BA7-B84F-43C81A2D0FB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33FC0055-0C72-4BA7-B84F-43C81A2D0FB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33FC0055-0C72-4BA7-B84F-43C81A2D0FB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EDC41AF-11F8-41BD-BF18-42603693C560}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EDC41AF-11F8-41BD-BF18-42603693C560}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EDC41AF-11F8-41BD-BF18-42603693C560}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EDC41AF-11F8-41BD-BF18-42603693C560}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A29963D1-7413-4288-A1D2-14B5B31C664B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A29963D1-7413-4288-A1D2-14B5B31C664B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A29963D1-7413-4288-A1D2-14B5B31C664B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A29963D1-7413-4288-A1D2-14B5B31C664B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{F5C1D1FC-3BE6-4997-9DFA-6E123A18DCB8} = {F97FAA90-1DD0-11ED-84E5-BB44434979E6}
+		{C4F1A7F4-083C-4F55-9E0F-960066944AA9} = {12FA44C0-1D64-11ED-B393-AD23B8246DE2}
+		{CE127632-2548-4C36-930B-B6D0137AAACF} = {12FA44C0-1D64-11ED-B393-AD23B8246DE2}
+		{695A2719-8341-4EB0-95AE-FACF438F626D} = {5F4C6290-1D64-11ED-B393-AD23B8246DE2}
+		{2E386514-2E8D-4ECA-8F65-08DFAEC527B2} = {5F4C6290-1D64-11ED-B393-AD23B8246DE2}
 		{C8DDE35E-24F6-47BA-BCEE-507513B2BDD7} = {EC4C9390-1D64-11ED-B393-AD23B8246DE2}
 		{DA157D92-614B-4157-A8D7-A7FD1B18A0F5} = {EC4C9390-1D64-11ED-B393-AD23B8246DE2}
-		{2E386514-2E8D-4ECA-8F65-08DFAEC527B2} = {5F4C6290-1D64-11ED-B393-AD23B8246DE2}
-		{695A2719-8341-4EB0-95AE-FACF438F626D} = {5F4C6290-1D64-11ED-B393-AD23B8246DE2}
-		{08241D38-9639-4775-8FAE-423EE704E800} = {12FA44C0-1D64-11ED-B393-AD23B8246DE2}
-		{CE127632-2548-4C36-930B-B6D0137AAACF} = {12FA44C0-1D64-11ED-B393-AD23B8246DE2}
-		{C4F1A7F4-083C-4F55-9E0F-960066944AA9} = {12FA44C0-1D64-11ED-B393-AD23B8246DE2}
+		{F5C1D1FC-3BE6-4997-9DFA-6E123A18DCB8} = {F97FAA90-1DD0-11ED-84E5-BB44434979E6}
+		{33FC0055-0C72-4BA7-B84F-43C81A2D0FB3} = {F97FAA90-1DD0-11ED-84E5-BB44434979E6}
+		{6EDC41AF-11F8-41BD-BF18-42603693C560} = {5F4C6290-1D64-11ED-B393-AD23B8246DE2}
+		{A29963D1-7413-4288-A1D2-14B5B31C664B} = {5F4C6290-1D64-11ED-B393-AD23B8246DE2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1F3F6289-BBD8-4E71-9D79-52ED5E68AF35}
 	EndGlobalSection
 EndGlobal

@@ -2,14 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
-    <RootNamespace>ddd_learn_event</RootNamespace>
+    <RootNamespace>ddd_learn_service.interfaces</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Publish\" />
-    <Folder Include="Subscribe\" />
+    <ProjectReference Include="..\ddd-learn-service.domain-object\ddd-learn-service.domain-object.csproj" />
   </ItemGroup>
 
 </Project>

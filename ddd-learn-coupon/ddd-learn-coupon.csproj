@@ -7,4 +7,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="CouponIssue\Entity\duqermcb.bqg~" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ddd-learn-coupon.core\ddd-learn-coupon.core.csproj" />
+  </ItemGroup>
+
 </Project>

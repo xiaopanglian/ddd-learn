@@ -11,4 +11,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ddd-learn-dto\ddd-learn-dto.csproj" />
+    <ProjectReference Include="..\ddd-learn-service.interfaces\ddd-learn-service.interfaces.csproj" />
+    <ProjectReference Include="..\ddd-learn-util\ddd-learn-util.csproj" />
+  </ItemGroup>
+
 </Project>
